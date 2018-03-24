@@ -33,7 +33,7 @@ apis:
   tags: Sites
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/sites/master/_listings/akamai/siteshield-v1-maps-id-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/sites/master/_listings/akamai/siteshield-v1-maps-id-acknowledge-post.md
 x-common:
 - type: x-base
   url: https://api.ccu.akamai.com
