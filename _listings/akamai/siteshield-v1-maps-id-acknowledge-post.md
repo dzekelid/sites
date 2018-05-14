@@ -1,8 +1,11 @@
 ---
 swagger: "2.0"
 info:
-  title: Akamai Merged API
+  title: Akamai API Acknowledge a Map
+  description: Acknowledge a Map
   version: 1.0.0
+host: developer.akamai.com
+basePath: /
 schemes:
 - http
 produces:
@@ -16,7 +19,7 @@ paths:
       description: Acknowledge a Map
       operationId: siteshieldv1mapsidacknowledge
       parameters:
-      - in: Number
+      - in: query
         name: id
         description: Numeric id of the Note to perform action with
         type: string
