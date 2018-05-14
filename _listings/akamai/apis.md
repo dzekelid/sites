@@ -25,15 +25,15 @@ modified: "2018-03-24"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/sites/master/_listings/akamai/apis.yaml
 specificationVersion: "0.14"
 apis:
-- name: Akamai API Get a Map
-  description: Get a Map
+- name: Akamai API Acknowledge a Map
+  description: Acknowledge a Map
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Akamai_Technologies,_Inc._Logo.png
   humanURL: https://akamai.com
   baseURL: https://developer.akamai.com//
   tags: Sites
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/sites/master/_listings/akamai/siteshield-v1-maps-id-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/sites/master/_listings/akamai/siteshield-v1-maps-id-acknowledge-post.md
 x-common:
 - type: x-base
   url: https://api.ccu.akamai.com
