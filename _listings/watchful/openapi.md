@@ -1,4 +1,3 @@
----
 swagger: "2.0"
 x-collection-name: Watchful
 x-complete: 1
@@ -672,4 +671,3 @@ paths:
       - Tags
       - Id
       - Sites
----

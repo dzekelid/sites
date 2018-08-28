@@ -9,13 +9,13 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/253-stack-
 x-kinRank: "8"
 x-alexaRank: "126"
 tags: Sites
-created: "2018-06-25"
-modified: "2018-06-25"
+created: "2018-08-28"
+modified: "2018-08-28"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/sites/master/_listings/stack-exchange/apis.md
 specificationVersion: "0.14"
 apis:
-- name: Stack Exchange Get Sites
-  x-api-slug: stack-exchange
+- name: Stack Exchange - Get Sites
+  x-api-slug: sites-get
   description: "Returns all sites in the network.\n \nThis method allows for discovery
     of new sites, and changes to existing ones. Be aware that unlike normal API methods,
     this method should be fetched very infrequently, it is very unusual for these
@@ -27,27 +27,20 @@ apis:
     a list of sites."
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/253-stack-exchange.jpg
   humanURL: http://stackexchange.com
-  baseURL: https://api.stackexchange.com//2.2//sites
-  tags: Sites
+  baseURL: https://api.stackexchange.com//2.2
+  tags: Citations, Answers, Code, Content, My API Stack, Imports, Stack, Media, Forums,
+    Streams, Plugins, Questions, General Data, Relative Data, Service API, Pedestal,
+    Historical Data API, Relative StreamRank, Streams
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/sites/master/_listings/stack-exchange/sites-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/sites/master/_listings/stack-exchange/sites-get-openapi.md
-- name: Stack Exchange
-  x-api-slug: stack-exchange
-  description: After someone asks a question, members of the community propose answers.
-    Others vote on those answers. Very quickly, the answers with the most votes rise
-    to the top. You dont have to read through a lot of discussion to find the best
-    answer.    Like to...
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/253-stack-exchange.jpg
-  humanURL: http://stackexchange.com
-  baseURL: https://api.stackexchange.com//2.2
-  tags: Sites
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/sites/master/_listings/stack-exchange/openapi.md
 x-common:
+- type: x-api-gallery
+  url: http://square.api.gallery.streamdata.io
+- type: x-api-stack
+  url: http://stack.exchange.stack.network
 - type: x-authentication
   url: https://api.stackexchange.com/docs/authentication
 - type: x-base
